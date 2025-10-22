@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 THIS_DIR="$(cd "$(dirname "$0")" && pwd)"
-BIN="$THIS_DIR/VocabBot-Public"
+BIN="$THIS_DIR/VocabBot"
 
 # Open Terminal and execute the binary from inside the bundle
 /usr/bin/osascript <<EOF
